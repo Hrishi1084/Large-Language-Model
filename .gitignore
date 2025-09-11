@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Large model files
+trained_model/
+*.h5
+*.ckpt
+*.pth
+*.pkl
+
+# OS/Editor junk
+.DS_Store
+Thumbs.db
+
+#gpt-2 models
+gpt2/
