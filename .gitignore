@@ -1,6 +1,5 @@
 # Virtual environment
 .venv/
-venv/
 
 # Python cache
 __pycache__/
@@ -22,3 +21,10 @@ Thumbs.db
 
 #gpt-2 models
 gpt2/
+
+*.egg-info/
+
+models/
+summarized_python_files/
+
+.gitignore

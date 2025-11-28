@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "large-language-model"
+version = "0.1.0"
+description = "A from-scratch GPT implementation with training scripts, GPT-2 weight loading, spam classifier, and instruction-tuned assistant."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Hrishi" }
+]
+
+dependencies = [
+    "torch",
+    "numpy",
+    "pandas",
+    "tqdm",
+    "matplotlib",
+    "requests",
+    "regex",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
