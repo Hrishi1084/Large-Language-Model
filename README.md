@@ -214,3 +214,5 @@ Softmax (next-token probabilities)
 
 - Supports instruction tuning through next-token loss on formatted (instruction, input, output) pairs.
 
+## Author
+**Hrishikesh Suryawanshi**
